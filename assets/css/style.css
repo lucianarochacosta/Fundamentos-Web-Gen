@@ -1,0 +1,149 @@
+/* Estilos da página index.html*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#menu {
+    display: flex;
+    background: #00007a;
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+}
+
+a:link {
+    color: azure;
+    padding: 10px;
+    border: 20px;
+    margin: 10px;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:visited {
+    color: #8b9ef5;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration:solid;
+}
+  
+a:active {
+    color: #8b9ef5;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #ccd4fc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cont-esquerda{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 5px;
+    border: 5px;
+}
+
+.cont-direita{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 5px;
+    border: 5px;
+}
+
+.pets{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 5px;
+    border: 5px;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+figcaption{
+    text-align: center;
+}
+
+h1{
+    color: #00007a;
+    text-align: center;
+    padding: 20px;
+}
+
+h3{
+    margin-left: 50px;
+    padding: 20px;
+}
+
+p{
+    color: #03033b;
+    text-align: justify;
+    align-content: center;
+    padding: 5px;
+    margin: 5px;
+    border: 5px;
+}
+
+form{   
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    margin-left: 50px;
+}
+
+button{
+    margin-left: 50px;
+}
+
+main{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.conteiner{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tm-media{
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 0;
+}
+
+/* Estilos da página contato.html*/

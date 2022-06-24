@@ -4,36 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu perfil</title>
+    <title>Página inicial</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html">Home</a> 
-            </li>
-            <li>
-                <a href="contato.html">Contato</a>
-            </li>
-        </ul>
+    <nav id="menu">
+        <a href="index.html">Página inicial</a> 
+        <a href="contato.html">Contato</a>
     </nav>
 
     <header>
-        <h1>Sobre mim</h1>
+        <h1>Página inicial</h1>
     </header>
 
-    <p>
-        Meu nome é Luciana Rocha Costa e tenho 27 anos.
-    </p>
+    <main>
+        <section>
+            <article>
+                <h3>Sobre mim</h3>
+                <div class="cont-esquerda">
+                    <p>Olá mundo! Como vai? Meu nome é Luciana, sou aquidauanense, tenho 27 anos e sou desenvolvedora Web Java Jr. Além de ciência e tecnologia, eu amo desenvolver habilidades artísticas. Gosto de cantar e tocar violão, e também já atuei no teatro. Meus passatempos preferidos envolvem assistir séries e filmes, ouvir músicas (principalmente rock dos anos 70/80) e aproveitar a companhia da minha esposa e das nossas pets.</p>
+                    <figure>
+                    <img src="assets/img/fotoLuciana.png" alt="Foto da criadora da página. Ela é parda de pele clara, cabelos cacheados curtos e coloridos de verde azulado. Está com uma blusa branca de manga curta e sorrindo.">
+                    </figure>
+                </div>
+            </article>
 
-    <img src="assets/img/fotoLuciana.png" width="300" height="320" alt="Foto da criadora da página. Ela é parda de pele clara, cabelos cacheados curtos e coloridos de verde azulado. Está com uma blusa branca de manga curtae sorrindo.">
+            <article>
+                <h3>Minha banda favorita</h3>
+                <div class="cont-direita">
+                    <p>Minha banda do coração desde muito pequena é o Queen! Super influenciada pelo meu pai e tio que também amam a banda, e tinham todos os discos.</p>
+                    <figure>
+                        <img src="./assets/img/queen.jpg" alt="Foto da banda Queen com seus quatro integrantes">
+                    </figure>
+                </div>
+            </article>
 
-    <h4>De onde eu venho?</h4>
+            <article>
+                <h3>Minha música favorita</h3>
+                <div class="cont-esquerda">
+                    <p>A minha música preferida não é da minha banda preferida, mas me trouxe um sentimento nostálgico muito bom desde a primeira vez que a ouvi: Hotel California!</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3394H9tGsoQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </article>
 
-    <p>Nasci na cidade de Aquidauana, localizada no Estado de Mato Grosso do Sul</p>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29904.76288748583!2d-55.7946630463611!3d-20.461276115542365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x947de661d30d1f01%3A0x1877220b18ca3391!2sAquidauana%2C%20MS%2C%2079200-000!5e0!3m2!1spt-BR!2sbr!4v1655847759328!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+            <article>
+                <h3>Minhas pets</h3>
+                <p style="text-align:center">Permissão para mostrar pets fofas!</p>
+                <div class="pets">
+                    <figure>
+                        <img src="./assets/img/amabile.jpeg" alt="Foto de uma cachorra preta de porte e pêlos médios, chamada Amábile.">
+                        <figcaption>Amábile</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./assets/img/menina.jpeg" alt="Foto de uma cachorra caramelo de porte médio e pêlos curtos, chamada Menina.">
+                        <figcaption>Menina</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./assets/img/emma.jpeg" alt="Foto de uma gata branca de porte médio e pêlos curtos, chamada Emma.">
+                        <figcaption>Emma</figcaption>
+                    </figure>
+                </div>
+            </article>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <div class="conteiner">
+            <a href="https://www.linkedin.com/in/lucianarochacosta/">
+                <img class="tm-media" src="./assets/img/linkedin.png" alt="Logo do LinkedIn">
+            </a>
+            <a href="https://github.com/lucianarochacosta/">
+                <img class="tm-media" src="./assets/img/github.png" alt="Logo do GitHub">
+            </a>
+        </div>
+        <p class="conteiner">
+        Todos os direitos reservados: Luciana Rocha Costa &copy;
+        </p>
+    </footer>
 </body>
 </html>
